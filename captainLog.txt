@@ -1,0 +1,12 @@
+Here we can fing the Captain's Log and documented progress over time.
+
+# Day 1:
+I've successfully installed React. I thoughts I've forgot how and I was
+right, but 1 search on the web and I was back at it.
+
+With the help of my Copilot I was able to create a button with a state.
+I've totally forgot it was possible. Still, after that I felt exausted and I've stopped.
+I dont need to put unnecessary pressupre on me. I've done more than I've done in the past year.
+
+
+# Day 2:
