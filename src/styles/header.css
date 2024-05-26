@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.left,
+.right {
+  display: flex;
+  color: blue;
+}

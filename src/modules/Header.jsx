@@ -1,22 +1,35 @@
-import React, { useState } from "react";
+import React from "react";
+import "../styles/header.css";
+import {
+  Cog6ToothIcon,
+  ChartBarSquareIcon,
+  PlusIcon,
+} from "@heroicons/react/24/outline";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <div>
-      <button onClick={toggleMenu}>☰</button>
-      {isOpen && (
-        <div>
-          <ul>
-            <li>Menu Item 1</li>
-            <li>Menu Item 2</li>
-            <li>Menu Item 3</li>
-          </ul>
-        </div>
-      )}
+      <div className="headerBox">
+        <ul className="list">
+          <div className="left">
+            <li>
+              <Cog6ToothIcon width={30} height={30} />
+            </li>
+            <li style={{ fontWeight: "bold" }}>
+              Habit
+              <span style={{ color: "blue" }}>Tracker</span>
+            </li>
+          </div>
+          <div className="right">
+            <li>
+              <ChartBarSquareIcon width={30} height={30} />
+            </li>
+            <li>
+              <PlusIcon width={30} height={30} />
+            </li>
+          </div>
+        </ul>
+      </div>
     </div>
   );
 };
