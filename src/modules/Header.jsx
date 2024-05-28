@@ -12,19 +12,19 @@ const Header = () => {
       <div className="headerBox">
         <ul className="list">
           <div className="left">
-            <li>
+            <li className="list-1">
               <Cog6ToothIcon width={30} height={30} />
             </li>
-            <li style={{ fontWeight: "bold" }}>
+            <li className="list-2" style={{ fontWeight: "bold" }}>
               Habit
               <span style={{ color: "blue" }}>Tracker</span>
             </li>
           </div>
           <div className="right">
-            <li>
+            <li className="list-3">
               <ChartBarSquareIcon width={30} height={30} />
             </li>
-            <li>
+            <li className="list-4">
               <PlusIcon width={30} height={30} />
             </li>
           </div>
