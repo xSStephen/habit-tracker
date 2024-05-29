@@ -17,7 +17,7 @@ const Header = () => {
             </li>
             <li className="list-2" style={{ fontWeight: "bold" }}>
               Habit
-              <span style={{ color: "blue" }}>Tracker</span>
+              <span className="tracker">Tracker</span>
             </li>
           </div>
           <div className="right">

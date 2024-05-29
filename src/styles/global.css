@@ -1,3 +1,9 @@
 :root {
   --pure-black: #ca2e2e;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
