@@ -1,1 +1,6 @@
 @import "global.css";
+
+.settings {
+  display: flex;
+  align-items: center;
+}
